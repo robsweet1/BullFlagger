@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+}
+body {
+  display: flex;
+  overflow-x: auto;
+  overflow-y: auto;
+
+
+
+}
+body > #root > div {
+  display: block;
+  min-height: 100vh;
+  background-color: #ccfaf721;
+}
+ 
+th {
+  text-align: center;
+  background: #2828283c;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+.Box {
+  min-height: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(154, 166, 175);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(62, 89, 114, 0.589);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(62, 89, 114, 0.829);
+}
